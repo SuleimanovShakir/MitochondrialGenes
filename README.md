@@ -18,20 +18,29 @@ Correlation analysis was utilized to compare samples within and betweeb differen
 <img src="img/Figure1.png" align='center', width="100%">
 </div>
 
+*Figure1. Correlation (A) and clustering (B) analysis of within and between groups*
+
 After that, we have decided to compare expression profile between controls and 2 treatment times. Comparing to control, incubation of cells with myxothiazole led to subsequent upregulation of gene expression. On the volcano plot one can observe higher amount of upregulated genes comparing to downregulated. Most of the genes didn't have significant expression level (>= 0.05), so that they were excluded from the analysis. 
 
 <div style='justify-content: center'>
 <img src="img/Figure2.png" align='center', width="100%">
 </div>
 
+*Figure2. Comparison of expression profiles between control and myxothiazole using heatmap (A) and volcano plot (B)*
+
 Applying the same methodology independently to the groups, incubated with myxothiazole for 5 and 17 hours (h), we had observed that number of significantly up- or down-regulated genes was significantly higher in the group after 17h of incubation rather than 5h, so that's why we fosuced on 17h incubation group of genes.
 
 <div style='justify-content: center'>
 <img src="img/Figure3.png" align='center', width="100%">
 </div>
+
+*Figure3. Comparison of expression profiles between control and myxothiazole after 5 hours of incubation using heatmap (A) and volcano plot (B)*
+
 <div style='justify-content: center'>
 <img src="img/Figure4.png" align='center', width="100%">
 </div>
+
+*Figure4. Comparison of expression profiles between control and myxothiazole after 17 hours of incubation using heatmap (A) and volcano plot (B)*
 
 After identifing candidate genes we have performed GO enrichment analyses to look at the biological and molecular pathways and processes which migth be involved to the mythochondrial dysfunction. Firstly, we studied upregulated genes.
 
@@ -39,11 +48,15 @@ After identifing candidate genes we have performed GO enrichment analyses to loo
 <img src="img/Figure5.png" align='center', width="100%">
 </div>
 
+*Figure5. GO enrichment analysis of biological processes (A), cellular components (B) and molecular functions (C) of upregulated genes in the group of 17 hours incubation with myxothiazole*
+
 During this step of analysis we didn't observe anything connected to mitochondrial dysfunction, so that further we performed GO enrichment analysis for downregulated genes and observed that a lot of clusters are bound to cell division, DNA replication and cell cycle in whole which means that the treatment may inhibit the basic cell machinery of mitosis and interfere the cell cycle. 
 
 <div style='justify-content: center'>
 <img src="img/Figure6.png" align='center', width="100%">
 </div>
+
+*Figure6. GO enrichment analysis of biological processes (A), cellular components (B) and molecular functions (C) of downregulated genes in the group of 17 hours incubation with myxothiazole*
 
 Looking back on the GO enrichment of upregulated genes, we observed some of the clusters of cyclin-dependent inhibitory kinases and autopjagosome, which migth be also an marker of cell death due to the treatment.
 
@@ -53,17 +66,23 @@ But still we wanted to understand what genes are stringently up or down regulate
 <img src="img/Figure7.png" align='center', width="100%">
 </div>
 
+*Figure7. Analysis of upregulated and downregulated genes intersection between different experimental groups incubated with myxothiazole*
+
 Due to low number of candidates, the GO enrichment analysis of this group didn't reveal any significant results for downregulated genes, but some clusters were identified for upregulated genes.
 
 <div style='justify-content: center'>
 <img src="img/Figure8.png" align='center', width="100%">
 </div>
 
+*Figure8. GO enrichment analysis of biological processes (A), cellular components (B) and molecular functions (C) of common upregulated genes for groups incubated with myxothiazole for 5 and 17 hours*
+
 Finally, using human genes database ENSEMBLE we have extracted the IDs for mitochondrial genes. It is well known that mitochondrial genome is partially low in amount of genes encoded, there are only 37 genes around. We have identified 10 dowregulated and 2 upregulated genes from the mitochondrial genome. Interestingly, all downregulated genes were gene coding tRNAs, while upregulated genes - genes coding rRNAs. tRNA genes downregulation is also a marker of subsequent protein synthesis inhibition in terms of electron-transport chain blockage. 
 
 <div style='justify-content: center'>
 <img src="img/Figure9.png" align='center', width="100%">
 </div>
+
+*Figure9. Analysis of mitochondrial genes expression level. Table A represents the names of particular genes. Volcano plots (B) represents the gene expression*
 
 ## Summary
 
