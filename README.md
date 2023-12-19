@@ -3,7 +3,7 @@
 Usalka O., Aysin S., Suleimanov S.
 
 *Skoltech, Life Science, NGS course*
-<div align="wide">
+<div align="justify">
 
 ## Introduction
 The disruption of most mitochondrial genes leads to severe alterations in cell functioning. The knowledge of mechanisms of these alterations can give a key on how to cure diseases resulting from the mutations in mitochondrial genes. In this experiment, the cells were treated with a reagent that suppresses the activity of mitochondrial electron transfer chain and the transcriptomes of control and treated cells were sequenced. You need to find the genes that change their expression profiles and try to understand what are the processes associated with these changes.
